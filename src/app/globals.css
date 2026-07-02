@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --blue:       #2233ee;
+    --blue-dark:  #1122cc;
+    --black:      #000;
+    --gray-1:     #111;
+    --gray-5:     #555;
+    --gray-9:     #999;
+    --gray-b:     #bbb;
+    --border:     #e8e8e8;
+    --bg:         #fff;
+    --nav-h:      64px;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    background-color: var(--bg);
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+  }
+}
